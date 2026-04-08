@@ -1,0 +1,12 @@
+{
+  "name": "evernode-portal-tests",
+  "version": "1.0.0",
+  "private": true,
+  "main": "run-tests.js",
+  "scripts": {
+    "start": "node run-tests.js"
+  },
+  "dependencies": {
+    "hotpocket-js-client": "0.5.7"
+  }
+}

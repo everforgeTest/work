@@ -1,0 +1,10 @@
+FROM ubuntu:latest
+RUN apt-get update && apt-get install -y nodejs npm
+WORKDIR /evernode-portal-contract
+RUN rm -rf ./*
+COPY package*.json /evernode-portal-contract/
+RUN npm install
+COPY src /evernode-portal-contract/src/
+COPY hp.cfg.override /evernode-portal-contract/
+COPY .env /evernode-portal-contract/
+RUN npm run buildLinux

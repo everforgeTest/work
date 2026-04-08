@@ -1,0 +1,8 @@
+{
+  "settings": {
+    "dbPath": "evernode_portal.db",
+    "dbScriptsFolderPath": "./dbScripts",
+    "postExecutionScriptName": "./post_exec.sh",
+    "newContractZipFileName": "./newContractData.zip"
+  }
+}

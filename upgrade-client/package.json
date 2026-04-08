@@ -1,0 +1,14 @@
+{
+  "name": "evernode-portal-upgrade-client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "hotpocket-js-client": "0.5.7",
+    "bson": "6.0.0",
+    "libsodium-wrappers": "0.7.9"
+  }
+}
