@@ -8,7 +8,7 @@ async function contract(ctx) {
   } catch (e) {
     console.error('DB init failed', e);
   }
-
+//r3weret
   const router = new ControllerRouter();
   for (const user of ctx.users.list()) {
     for (const input of user.inputs) {
